@@ -52,6 +52,6 @@ Press the Deploy Button to Get Your Own Bot. 👇
 
 ## Creadit
  - Thanks To Dan For His Awesome [Libary](https://github.com/pyrogram/pyrogram)
- - Thanks To [Bot Magic](https://t.me/BotMagicChatBot) For His [Duration File](https://github.com/DKBOTZHELP/Media-Info-Bot/blob/main/dkbotz/Duration.py)
+ - Thanks To [Bot Magic](https://t.me/BotMagicChatBot) For His [Duration File](https://github.com/DKBOTZHELP/Media-Info-Bot/bob/main/dkbotz/Duration.py)
  - Thanks To [Tellybots Owner](https://t.me/Tellybots) For This Bot Suggestion
  - Thanks To Everyone In This Journey
