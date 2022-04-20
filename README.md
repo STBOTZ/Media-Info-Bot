@@ -34,7 +34,7 @@
 - `BOT_USERNAME:` Enter Your Bot Username Without @. Ex :- MediaInfosBot
 
 - `SUPPORT_GROUP:` Enter Your Group Username Without @. Ex :- DK_BOTZ
-
+- `OWNER_ID:` Enter Your User ID. Get From [@MediaInfosBot](https://t.me/MediaInfosBot). Start And Send /id
 
 ## Deploy To Heroku 🗳
 Press the Deploy Button to Get Your Own Bot. 👇
