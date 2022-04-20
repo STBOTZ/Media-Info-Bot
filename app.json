@@ -20,6 +20,9 @@
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD"
         },
+        "OWNER_ID": {
+            "description": "Enter Your User ID. Get From @MediaInfosBot. Start And Send /id"
+        },
         "SUPPORT_GROUP": {
             "description": "Enter Your Group Username Without @. Ex :- DK_BOTZ",
             "required": false,
