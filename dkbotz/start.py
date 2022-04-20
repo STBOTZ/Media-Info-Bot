@@ -10,8 +10,6 @@ from dkbotz.command import command
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
-    owner = await c.get_users(int(Config.OWNER_ID))
-
     await message.reply_text(
         f"""**Hello {message.from_user.mention}**
 
@@ -19,9 +17,7 @@ async def start_(client: Client, message: Message):
 
 **Use Me To Generate Infomation Of Media Like Photo, Videos And Document.**
 
-**I Also Work in Group**
-
-**👲 Maintained By: {owner.mention(style='md')**""",
+**I Also Work in Group**""",
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
