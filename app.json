@@ -3,8 +3,8 @@
     "description": "A Most Powerful Telegram Media Info Bot by @DKBOTZ",
     "keywords": [
         "telegram",
-        "files",
-        "rename",
+        "Media",
+        "Mediainfobot",
         "bot"
     ],
     "repository": "https://github.com/DKBOTZHELP/Video-info-Bot",
@@ -21,7 +21,7 @@
             "description": "Get this from @BotFather XD"
         },
         "OWNER_ID": {
-            "description": "Enter Your User ID. Get From @MediaInfosBot. Start And Send /id"
+            "description": "Enter Your Telegram ID. Get From @MediaInfosBot. Start And Send /id"
         },
         "SUPPORT_GROUP": {
             "description": "Enter Your Group Username Without @. Ex :- DK_BOTZ",
