@@ -9,7 +9,7 @@ from dkbotz.humanbytes import humanbytes
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 
-@Client.on_message((filters.photo) & ~filters.channel & ~filters.edited)
+@Client.on_message((filters.photo) & ~filters.channel & ~filters.group)
 async def help(client: Client, message: Message):
     if message.document:
        media = message.document
