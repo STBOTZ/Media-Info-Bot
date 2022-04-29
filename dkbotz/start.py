@@ -6,7 +6,7 @@ import urllib
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from configs import Config
-from dkbotz.command import command
+#from dkbotz.command import command Not Required
 
 @Client.on_message(filters.command("start") & filters.private)
 async def start(bot: Client, cmd: Message):
