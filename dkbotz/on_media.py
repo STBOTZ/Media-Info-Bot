@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 from dkbotz.humanbytes import humanbytes
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-@Client.on_message((filters.video  | filters.audio | filters.document) & ~filters.channel & ~filters.edited)
+@Client.on_message((filters.video  | filters.audio | filters.document) & ~filters.channel & ~filters.group)
 async def help(client: Client, message: Message):
     if message.document:
        media = message.document
