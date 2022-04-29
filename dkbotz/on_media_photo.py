@@ -10,7 +10,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from configs import Config
 
 
-@Client.on_message((filters.photo) & ~filters.channel & ~filters.group)
+@Client.on_message((filters.photo) & ~filters.channel)
 async def help(client: Client, message: Message):
     if message.document:
        media = message.document
