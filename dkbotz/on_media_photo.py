@@ -7,6 +7,7 @@ from dkbotz.Duration import TimeFormatter
 from pyrogram import Client, filters
 from dkbotz.humanbytes import humanbytes
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from configs import Config
 
 
 @Client.on_message((filters.photo) & ~filters.channel & ~filters.group)
