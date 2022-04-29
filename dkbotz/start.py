@@ -10,7 +10,7 @@ from configs import Config
 
 @Client.on_message(filters.command("start") & filters.private)
 async def start(bot: Client, cmd: Message):
-    await message.reply_text(
+    await cmd.reply_text(
         f"""**Hello {message.from_user.mention}**
 
 **I Am Most Powerful Media Info Bot.**
