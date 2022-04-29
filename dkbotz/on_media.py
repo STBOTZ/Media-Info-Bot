@@ -3,6 +3,7 @@
 from datetime import datetime
 from sys import version_info
 from time import time
+from configs import Config
 from dkbotz.Duration import TimeFormatter
 from pyrogram import Client, filters
 from dkbotz.humanbytes import humanbytes
