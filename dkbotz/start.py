@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from configs import Config
 from dkbotz.command import command
 
-@Client.on_message(command("start") & filters.private & filters.group)
+@Client.on_message(command("start") & filters.private)
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""**Hello {message.from_user.mention}**
