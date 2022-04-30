@@ -7,7 +7,7 @@
         "Mediainfobot",
         "bot"
     ],
-    "repository": "https://github.com/DKBOTZHELP/Video-info-Bot",
+    "repository": "https://github.com/STBOTZ/Media-info-Bot",
     "website": "https://t.me/DKBOTZ",
     "success_url": "https://t.me/DKBOTZ",
     "env": {
@@ -23,12 +23,12 @@
         "SUPPORT_GROUP": {
             "description": "Enter Your Group Username Without @. Ex :- DK_BOTZ",
             "required": false,
-            "value": "DK_BOTZ"
+            "value": "ST_BOTZ"
         },
         "BOT_USERNAME": {
             "description": "Enter Your Bot Username Without @. Ex :- MediaInfosBot",
             "required": false,
-            "value": "MediaInfosBot"
+            "value": "ST_MEDIAINFOBOT"
         }
     },
     "buildpacks": [ 
