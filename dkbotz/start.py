@@ -1,4 +1,4 @@
-# © @DKBOTZHELP Or https://github.com/DKBOTZHELP
+# © @STBOTZ Or https://github.com/STBOTZ
 
 
 import os
@@ -22,10 +22,10 @@ async def start(bot: Client, cmd: Message):
             [[
             InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📢 Bot Channel', url='http://t.me/DKBOTZ'),
+            InlineKeyboardButton('📢 Bot Channel', url='http://t.me/STBOTZ'),
             InlineKeyboardButton('💼 Support Group', url=f'http://t.me/{Config.SUPPORT_GROUP}')
             ],[
-            InlineKeyboardButton('🌐 Source Code 🌐', url='https://github.com/DKBOTZHELP/Media-Info-Bot')
+            InlineKeyboardButton('🌐 Source Code 🌐', url='https://github.com/STBOTZ/Media-Info-Bot')
             ],[
             InlineKeyboardButton('⌦ Close The Menu ⌫', callback_data='close_data')
         ]]
